@@ -1,4 +1,41 @@
+.navbar-default{
+    background-color: #000033;
+    
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #e6e6e6;
+}
+
+.navbar-default .navbar-brand{
+    color: #e6e6e6;
+    font-size:25px
+    
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d6d6c2;
+}
+
+.jumbotron {
+    background-color:transparent;
+    color:#000033;
+}
+
+a{
+    color:#000033
+}
+
+.container intro{
+    padding-top: 50px
+    
+}
+
 body{
     padding-top: 50px;
-    
+    font-family:'Helvetica', sans-serif;
+    background-image: url("../assets/seamless_paper_texture.png")
 }
