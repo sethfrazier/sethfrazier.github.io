@@ -29,12 +29,18 @@
 
 .Page-title{
     color: #000033;
-    margin-bottom:55px  
+    margin-bottom:45px;
+
 }
 
 .portfolio-thumbnail{
     background-color: transparent;
     
+}
+
+.portfolio-thumbnail{
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .portfolio-thumbnail:hover{
@@ -47,7 +53,7 @@ a{
 }
 
 .intro .introText{
-    padding-top: 25px;
+    padding-top: 15px;
     color:#000033 
 }
 
@@ -72,3 +78,67 @@ body{
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     background-image: url("../assets/seamless_paper_texture.png")
 }
+
+h3,
+h4,
+h5{
+    color:#000033;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-outline{
+    color: #000033;
+    font-size: 18px;
+    border: solid 2px #000033;
+    border-radius: 4px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background: #000033;
+  border: solid 2px #000033;
+}
+
+.btn-social {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid#000033;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+  footer {
+    color: white;
+  }
+  footer h3 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  footer .footer-above {
+    padding-top: 20px;
+  }
+  footer .footer-col {
+    margin-bottom: 50px;
+  }
+  footer .footer-below {
+    padding: 15px 0;
+    
+  }
+  footer .btn-outline {
+   
+    font-size: 20px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 0px;
+  }
